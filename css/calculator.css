@@ -1,0 +1,206 @@
+:root {
+  --background--color: #000000;
+  --white--color:#FFFFFF;
+  --main--font: "DM Sans", sans-serif;
+  --grey--buttons--color: #a5a5a5;
+  --orange--buttons--color: #f1a33b;
+  --dark--grey--buttons--color:#333333;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0px;
+}
+.screen {
+  width: 428px;
+  height: 928px;
+  padding: 0px 17px 74px 17px;
+  background-color: var(--background--color);
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.input {
+  margin-top: 239px;
+  margin-left: 130px;
+
+  width: 300px;
+  height: 107px;
+
+  font-family: var(--main--font);
+  font-size: 50px;
+  color: var(--white--color);
+  background-color: var(--background--color);
+  border:none;
+}
+
+.screen-buttons{
+    margin-top:50px;
+}
+.screen-first__buttons__list {
+  display: flex;
+  gap: 14px;
+}
+
+.screen-first__buttons__list .screen-first__buttons__list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 88px;
+
+  border-radius: 88px;
+
+  font-family: var(--main--font);
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+.screen-first__buttons__list
+  .screen-first__buttons__list__item:not(:last-child) {
+  background-color: var(--grey--buttons--color);
+}
+
+.screen-first__buttons__list .screen-first__buttons__list__item:last-child {
+  background-color: var(--orange--buttons--color);
+  color: var(--white--color);
+}
+
+.screen-second__buttons__list {
+    display: flex;
+    gap: 14px;
+    margin-top:14px;
+  }
+
+.screen-second__buttons__list .screen-second__buttons__list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 88px;
+
+  border-radius: 88px;
+
+  font-family: var(--main--font);
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+.screen-second__buttons__list
+  .screen-second__buttons__list__item:not(:last-child) {
+  background-color: var(--dark--grey--buttons--color);
+  color: var(--white--color);
+}
+
+.screen-second__buttons__list .screen-second__buttons__list__item:last-child {
+  background-color: var(--orange--buttons--color);
+  color: var(--white--color);
+}
+
+.screen-third__buttons__list {
+    display: flex;
+    gap: 14px;
+    margin-top:14px;
+  }
+
+.screen-third__buttons__list .screen-third__buttons__list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 88px;
+
+  border-radius: 88px;
+
+  font-family: var(--main--font);
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+.screen-third__buttons__list
+  .screen-third__buttons__list__item:not(:last-child) {
+  background-color: var(--dark--grey--buttons--color);
+  color: var(--white--color);
+}
+
+.screen-third__buttons__list .screen-third__buttons__list__item:last-child {
+  background-color: var(--orange--buttons--color);
+  color: var(--white--color);
+}
+
+.screen-fourth__buttons__list {
+    display: flex;
+    gap: 14px;
+    margin-top:14px;
+  }
+
+.screen-fourth__buttons__list .screen-fourth__buttons__list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 88px;
+
+  border-radius: 88px;
+
+  font-family: var(--main--font);
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+.screen-fourth__buttons__list
+  .screen-fourth__buttons__list__item:not(:last-child) {
+  background-color: var(--dark--grey--buttons--color);
+  color: var(--white--color);
+}
+
+.screen-fourth__buttons__list .screen-fourth__buttons__list__item:last-child {
+  background-color: var(--orange--buttons--color);
+  color: var(--white--color);
+}
+
+.screen-fifth__buttons__list {
+    display: flex;
+    gap: 14px;
+    margin-top:14px;
+  }
+
+.screen-fifth__buttons__list .screen-fifth__buttons__list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 88px;
+
+  border-radius: 88px;
+
+  font-family: var(--main--font);
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+.screen-fifth__buttons__list
+  .screen-fifth__buttons__list__item:first-child {
+    width:207px;
+    justify-content: start;
+    padding-left:39px;
+}
+
+.screen-fifth__buttons__list
+  .screen-fifth__buttons__list__item:not(:last-child) {
+  background-color: var(--dark--grey--buttons--color);
+  color: var(--white--color);
+}
+
+.screen-fifth__buttons__list .screen-fifth__buttons__list__item:last-child {
+  background-color: var(--orange--buttons--color);
+  color: var(--white--color);
+}
